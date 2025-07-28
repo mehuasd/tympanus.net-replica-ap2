@@ -1,16 +1,9 @@
-/* @font-face {
-  font-family: 'Montserrat';
-  src: url('Montserrat-Regular.ttf');
-} */
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   src: url('https://fonts.gstatic.com/s/montserrat/v30/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2');
 }
-/* .space{
-    width: 100%;
-    height: 80px;
-} */
 .body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -19,68 +12,8 @@
     margin: 0px;
     padding: 0px;
 }
-/* .aa{
-        font-family: 'Montserrat', sans-serif;
-        color: #635C73;
-        font-weight: bold;
-        font-size: 16px;
-}
-.btn{
-    background-color: #8c81ad;
-    border-radius: 50px;
-    padding: 5px 20px;
-    text-align: center;
-} */
-/* ---------nav--------- */
-/* .navbar{
-    display: flex;
-    justify-content:space-around;
-    padding: 20px 100px;
-    width: 70%;
-    z-index: 1;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-}
-#header{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
-.nav-list{
-    list-style-type: none;
-    display: flex;
-}
-.nav-link{
-    text-decoration: none;
-    margin-right: 20px;
-} */
-
-/* 
-
-.list{
-    display: flex;
-    align-items: center;
-}
-.nav-list{
-    list-style-type: none;
-    display: flex;
-}
-.nav-link {
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 20px;
-}
-.navbar{
-
-}
-.nav{
-    display: flex;
-    align-items: center;
-} */
-
+/* -------nav--------- */
 .nav-list{
     list-style-type: none;
     display: flex;
@@ -97,7 +30,6 @@
 }
 .nav-link{
     text-decoration: none;
-    
     color: #635C73;
     margin-right: 25px;
 }
@@ -109,13 +41,11 @@
     display: flex;
     justify-content: center;
     background-color: #fff;
-    /* opacity: 0.8; */
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     z-index: 1;
-    /* padding: 15px 10px; */
     padding: 30px;
     font-weight: bold;
     align-items: center;
@@ -132,15 +62,12 @@
 /* ------main-bannner-------- */
 #main-banner{
     color: #fff;
-    /* margin-top: 150px; */
     background-image: url("images/banner-main.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
-    /* width: 100%; */
     height: 100vh;
     background-color: #000;
-    
     margin-top: 105px;
 }
 .mtitle{
@@ -148,8 +75,6 @@
 }
 .text{
     text-align: center;
-    /* margin-top: 80px; */
-    /* width: 50%; */
     padding: 90px 0px;
 }
 .mcontent{
@@ -159,15 +84,10 @@
 }
 .version{
     color: #494654;
-    
     margin-top: 5px;
 }
 
 /* -------about----------- */
-/* .download{
-    margin:-80px 0px 0px 0px;
-    font-size: 21px;
-} */
 #about{
     text-align: center;
     background-color: #fff;
@@ -192,46 +112,57 @@
     font-size: 54px;
     color: #635C73;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 .acontent{
     font-size: 21px;
     color: #716e79;
     margin-bottom: 26px;
 }
+.about-container{
+    padding: 30px;
+}
+
 
 /* *******info******** */
 
 #info{
     background-color: #f4f4f4;
-    /* text-align: center; */
 }
 .ihead{
     text-align: center;
+    font-size: 40px;
+    color: #8d81ac;
+    padding-top: 50px;
+
 }
 .info-grid{
     display: grid;
     grid-template-columns: auto auto;
     gap: 70px;
-    padding: 100px 12%;
+    padding: 50px 12% 100px 12%;
 }
 .icard{
     display: grid;
     grid-template-columns: auto auto;
     gap: 50px;
-    /* width: 50%;s */
+}
+.text-holder > h3{
+    margin-bottom: 10px;
+}
+.text-holder > p{
+    color: #848E97;
+    font-size: 13px;
 }
 
-/* --------------------- */
+/* ---------testimonials------------ */
 
 #testimonials{
     color: #fff;
-    /* margin-top: 150px; */
     background-image: url("images/banner-testimonials.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    /* width: 100%; */
-    /* height: 75vh; */
     padding: 100px;
 }
 .thead{
@@ -246,13 +177,10 @@
     grid-template-columns: auto auto auto;
     gap: 90px 50px;
     align-items: center;
-    /* width: 100%; */
 }
 .tcard{
     text-align: center;
-    width: 90%;
-    /* margin: 30px 70px; */
-    /* margin-top: 80px; */
+    width: 100%;
 }
 .tcard > p{
     font-style: italic;
@@ -260,22 +188,21 @@
     padding: 10px;
 }
 
-
-
-
+.section-breaker{
+    background-color: #664A6699;
+    height: 1px;
+    width: 736px;
+}
 
 
 /* -------pricing------- */
 
 #pricing{
     color: #fff;
-    /* margin-top: 150px; */
     background-image: url("images/banner-pricing.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    /* width: 100%; */
-    /* height: 80vh; */
     padding: 100px;
 }
 .phead{
@@ -287,7 +214,6 @@
 }
 .pcontainer{
     display: flex;
-    /* grid-template-columns: repeat(4,auto); */
     text-align: center;
     gap: 0px 5px;
     justify-content: center;
@@ -299,7 +225,6 @@
     flex-direction: column;
     justify-content: center;
     width: 20%;
-    /* width: 250px; */
 
 }
 .pline{
@@ -313,7 +238,6 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 .price{
@@ -323,7 +247,6 @@
 }
 .price > span{
     color: #fff;
-    /* font-weight: 300; */
     font-weight: bold;
 }
 .per{
@@ -334,9 +257,10 @@
     color: #fff;
     border-radius: 50px;
     margin: 50px 0 30px 0;
-    padding: 10px 25px;
-    /* color: #fff; */
+    padding: 10px 30px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .purchase:hover{
     background-color: #ffffff66;
@@ -354,13 +278,14 @@
     display: flex;
     justify-content: space-around;
     background-color: #f4f4f4;
+    align-items: center;
 }
 .email-input{
     background-color: #fff;
     border-radius: 50px;
     padding: 10px 25px;
     border: none;
-    margin-right: 60px;
+    margin-right: 40px;
     width: 300px;
     font-weight: bold;
 }
@@ -374,13 +299,23 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-items: center;
-    padding: 30px;
+    padding: 62px 100px 92px;
+    line-height: 22px;
+
 }
 .f-link{
     text-decoration: none;
-    
-    color: #635C73;
+    font-weight: bold;
+    color: #8d81ac;
 }
 .f-list{
-    
+    list-style-type: none;
+}
+.fcard{
+    padding: 0 15px;
+}
+.fcontent{
+    color: #848E97;
+    font-size: 14px;
+
 }
